@@ -62,11 +62,11 @@ Sound.prototype.play = function(){
 }
 
 let sound = new Sound(document.querySelector("#sound-div")),
-	backgroundSound = sound.create("../src/assets/sounds/Love_Letter.mp3", "background_sound", true),
-	movesSound = sound.create("../src/assets/sounds/moves.mp3", "moves_sound"),
-	dropSound = sound.create("../src/assets/sounds/drop.mp3", "drop_sound"),
-	pointsSound = sound.create("../src/assets/sounds/points.mp3", "points_sound"),
-	finishSound = sound.create("../src/assets/sounds/finish.mp3", "finish_sound");;
+	backgroundSound = sound.create("./Love_Letter.mp3", "background_sound", true),
+	movesSound = sound.create("./moves.mp3", "moves_sound"),
+	dropSound = sound.create("./drop.mp3", "drop_sound"),
+	pointsSound = sound.create("./points.mp3", "points_sound"),
+	finishSound = sound.create("./finish.mp3", "finish_sound");;
 
 sound.muteToggle();
 sound.soundSetting();
